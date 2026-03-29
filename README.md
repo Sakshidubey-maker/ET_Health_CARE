@@ -1,16 +1,41 @@
-# Healthcare Coding Agent (Groq)
+# 🏥 Healthcare Coding Agent (Groq)
 
-## Description
-AI system that extracts diagnoses & procedures, maps ICD-10/CPT codes, and gives approval decision.
+## 📌 Description
+This project is an AI-powered Healthcare Coding Agent that processes clinical notes, extracts diagnoses and procedures, maps them to ICD-10 and CPT codes, and generates rule-based approval decisions with an audit trail.
 
-## Features
-- LLM extraction (Groq)
+## 🚀 Features
+- LLM-based extraction (Groq)
+- ICD-10 & CPT code mapping
 - Rule-based validation
-- Audit output
+- Decision engine (Approved / Denied)
+- Audit output in JSON
+- Gradio UI
 
-## Run
-pip install -r requirements.txt
-python app.py
+## 🧠 Tech Stack
+- Python
+- Gradio
+- Groq API
+- JSON / Rule Engine
 
-## Demo
+## ▶️ Run Locally
+pip install -r requirements.txt  
+python app.py  
+
+## 🌐 Live Demo
 https://sakshi63-techbuzz.hf.space/
+
+## 📊 Example Input
+Patient has fever and cough. Diagnosed with pneumonia. Chest X-ray performed.
+
+## 📤 Output
+- Diagnoses
+- Procedures
+- ICD-10 codes
+- CPT codes
+- Decision (Approved/Denied)
+
+## 🔮 Future Improvements
+- Real ICD/CPT dataset (RAG)
+- Multi-payer rules
+- Better UI visualization
+- Deployment at scale
